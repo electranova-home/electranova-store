@@ -1,0 +1,1 @@
+document.querySelectorAll('[data-year]').forEach(e=>e.textContent=new Date().getFullYear());const f=document.getElementById('contactForm');if(f){f.addEventListener('submit',e=>{e.preventDefault();document.getElementById('formMessage').style.display='block';f.reset();});}
